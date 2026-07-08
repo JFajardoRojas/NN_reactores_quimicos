@@ -1,6 +1,7 @@
 # Nota de métodos — Dimensionamiento de un PFR con IA (datos multi-fidelidad)
 
-Material de apoyo para la clase de 20 min (pregrado ing. química). Todo lo que
+Material de apoyo para la clase sobre uso de NN en el dimenionamiento de reactores
+PFR sin conocer la cinética de reacción. Todo lo que
 está aquí se genera con `demo_pfr_ia.py`; los números coinciden con las figuras.
 Se incluye in Jupyter Notebook `demo_pfr_ia.ipynb` para que el estudiante tenga 
 una experiencia más interactiva.
