@@ -110,29 +110,8 @@ y error en el volumen para `X=0.8`:
 - Con **solo 4 experimentos**, la red ya **reconstruye la ley de velocidad
   verdadera** (fig. 4), algo que la caja-negra ni siquiera intenta.
 
----
 
-## 5. Guion sugerido (20 min) y qué figura usar
-
-1. **(2 min) El problema.** Dimensionar un PFR = necesito `V` para `X*`. Necesito
-   `-r_A(C_A)`, y medirla cuesta. Balance molar `dX/dV = -r_A/F_A0`.
-2. **(3 min) Multi-fidelidad.** Modelo barato sesgado (18% de error) vs
-   experimentos caros. → tabla de la sección 2.
-3. **(4 min) Dos filosofías.** Meter la física (aprender solo `-r_A`) vs caja-negra
-   (aprender `V→X`). Ecuación de la pérdida física de la sección 3A.
-4. **(4 min) Perfil con pocos datos.** → **fig. 3**: con 4 experimentos, el
-   físico-informado sigue la verdad; la caja-negra serpentea y cruza `X=0.8` en el
-   `V` equivocado.
-5. **(3 min) Eficiencia de datos.** → **fig. 1** (RMSE vs Nº exp.) y **fig. 2**
-   (error de volumen; el físico baja de la línea del 5%, la caja-negra no).
-6. **(2 min) Lo que la física regala.** → **fig. 4**: recupera la ley de velocidad
-   real desde 4 puntos. Interpretabilidad + extrapolación.
-7. **(2 min) Cierre.** Menos costo (computacional y de experimentos) = atar el
-   modelo a la física. La física reduce los grados de libertad → menos datos.
-
----
-
-## 5b. El caso más revelador: EXTRAPOLACIÓN (fig. 5)
+## 5. El caso más revelador: EXTRAPOLACIÓN (fig. 5)
 
 Situación realista: los experimentos se hicieron **solo en reactores pequeños**
 (baja conversión, `X ≲ 0.64`, `V ≤ 8 L`) porque son baratos y rápidos. Hay que
